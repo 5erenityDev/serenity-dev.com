@@ -8,13 +8,15 @@ export default function Home() {
           className="dark:invert"
           src="/next.svg"
           alt="Next.js logo"
-          width={180}
+          width={1000}
           height={38}
           priority
         />
         <h1>SerenityDev</h1>
         <h2>Indie Game Developer creating "Wretched Rose" and "Up to Bat"</h2>
         <h3>Website under development</h3>
+
+        <p><a href="games">Click here for a list of my games!</a></p>
       </main>
     </div>
   );
