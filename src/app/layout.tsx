@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "SerenityDev",
-  description: "Indie Game Developer Creating \"Wretched Rose\" and \"Up to Bat\"",
+  description: "Indie Game Developer creating \"Wretched Rose\" and \"Up to Bat\"",
 };
 
 export default function RootLayout({
