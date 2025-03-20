@@ -1,14 +1,34 @@
 
 const GamesPage = () => {
   return (
-    <div className="sm:p-20">
-      <main className="flex flex-col gap-[50px] items-center text-lg/10">
-        <h1>My Mods/Hacks/Shaders:</h1>
-        <ul>
-            <li><a href="/mods/mkds">MKDS Romhack (In development)</a></li>
-            <li><a href="/mods/sm64">SM64 Romhack (In development)</a></li>
-            <li><a href="/mods/shader">ReShade Shader (In development)</a></li>
-        </ul>
+    <div className="">
+        <main className="text-5xl">
+          <ul>
+              <a href="/mods/sm64">
+                <li className="h-150 bg-sky-950">
+                  
+                    <p>Mario Kart DS Romhack (In Development)</p>
+                  
+                  
+                </li>
+              </a>
+              <a href="/mods/mkds">
+                <li className="h-150 bg-slate-950">
+                  
+                    <p>Super Mario 64 Romhack (In Development)</p>
+                  
+                  
+                </li>
+              </a>
+              <a href="/mods/shader">
+                <li className="h-150 bg-green-950">
+                  
+                    <p>ReShade Shader (In Development)</p>
+                  
+                  
+                </li>
+              </a>
+          </ul>
       </main>
     </div>
   );

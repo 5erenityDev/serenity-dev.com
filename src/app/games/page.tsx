@@ -1,16 +1,64 @@
 const GamesPage = () => {
   return (
-    <div className="sm:p-20">
-        <main className="flex flex-col gap-[50px] items-center text-lg/10">
-          <h1>My games:</h1>
+    <div className="">
+        <main className="text-5xl">
           <ul>
-              <li><a href="/games/wretched-rose">Wretched Rose (In development)</a></li>
-              <li><a href="/games/up-to-bat">Up to Bat! (In development)</a></li>
-              <li><a href="/games/echoes-in-my-mind">Echoes in my Mind</a></li>
-              <li><a href="/games/hunt-for-halford">Hunt for Halford</a></li>
-              <li><a href="/games/hero-for-a-day">Hero for a Day</a></li>
-              <li><a href="/games/restoring-reparia">Restoring Reparia (Working title)</a></li>
-              <li><a href="/games/reap-what-you-sow">Reap What You Sow (In development)</a></li>
+              <a href="/games/wretched-rose">
+                <li className="h-150 bg-emerald-950">
+                  
+                    <p>Wretched Rose (In development)</p>
+                  
+                  
+                </li>
+              </a>
+              <a href="/games/up-to-bat">
+                <li className="h-150 bg-violet-950">
+                  
+                    <p>Up to Bat! (In development)</p>
+                  
+                  
+                </li>
+              </a>
+              <a href="/games/echoes-in-my-mind">
+                <li className="h-150 bg-lime-950">
+                  
+                    <p>Echoes in my Mind</p>
+                  
+                  
+                </li>
+              </a>
+              <a href="/games/hunt-for-halford">
+                <li className="h-150 bg-rose-950">
+                  
+                    <p>Hunt for Halford</p>
+                  
+                  
+                </li>
+              </a>
+              <a href="/games/hero-for-a-day">
+                <li className="h-150 bg-indigo-950">
+                  
+                    <p>Hero for a Day</p>
+                  
+                  
+                </li>
+              </a>
+              <a href="/games/restoring-reparia">
+                <li className="h-150 bg-fuchsia-950">
+                  
+                    <p>Restoring Reparia (Working title)</p>
+                  
+                  
+                </li>
+              </a>
+              <a href="/games/reap-what-you-sow">
+                <li className="h-150 bg-yellow-950">
+                  
+                    <p>Reap What You Sow (In development)</p>
+                  
+                  
+                </li>
+              </a>
           </ul>
         </main>
     </div>
