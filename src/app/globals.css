@@ -5,11 +5,23 @@
   --foreground: #04010A;
 }
 
+@theme {
+  --color-night-1: #04010A;
+  --color-night-2: #0E0419;
+  --color-night-3: #250E33;
+  --color-night-4: #64346B;
+  --color-night-5: #874E86;
+  --color-night-6: #A8729F;
+  --color-night-7: #C699B9;
+  --color-night-8: #DDBED0;
+  --color-night-9: #F2E6EA;
+  --color-night-10: #FCF9FA;
+  --color-toymaker: #F5FCF4;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {

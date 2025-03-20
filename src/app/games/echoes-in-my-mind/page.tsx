@@ -1,8 +1,8 @@
 
 const EchoesInMyMindPage = () => {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[50px] row-start-2 items-center text-lg/3">
+    <div className="sm:p-20">
+        <main className="flex flex-col gap-[50px] items-center text-lg/10">
         <h1><a href = "https://serenitydev.itch.io/echoes-in-my-mind">Echoes in my Mind</a></h1>
         <h2>Story-focused 2D puzzle platformer</h2>
         <p>The forest echoes of times long forgotten. Can you overcome your past?</p>

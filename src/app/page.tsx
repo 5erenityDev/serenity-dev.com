@@ -2,28 +2,20 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[50px] row-start-2 items-center text-lg/3">
+    <div>
+      <main>
+
         <Image
-          src="/images/SerenityDev.png"
+          src="/images/site/banner.png"
           alt="Next.js logo"
-          width={1000}
-          height={1000}
+          style={{ width: '100%', height: 'auto', display: 'block', margin: 'auto' }}
+          width={2000}
+          height={500}
           priority
         />
-        <h2>Indie Game Developer creating "Wretched Rose" and "Up to Bat"</h2>
-        <h3>Website under development</h3>
-        <br/>
-        <p>Check out my:</p>
-        <p><a href="games">Games</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mods">Mods/Romhacks/Shaders</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="art">Art</a></p>
-        <br/>
-        <p>Follow me on:</p>
-        <ul>
-          <li><a href="https://bsky.app/profile/serenity-dev.com">Bluesky</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/Serenity_Dev">Twitter (Not X)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/@Serenity_Dev">YouTube</a></li>
-          <br/><br/>
-          <li></li>
-        </ul>
-        
+        <h2 className ="text-sm text-center">(Website still in development)</h2>
+        <h1 className ="text-7xl text-center mt-50 mb-10">Hello!</h1>
+        <p className ="text-3xl text-center">I'm Sean, also known as SerenityDev or just Serenity. <br/><br/> I'm an Indie Game Developer creating "Wretched Rose" and "Up to Bat!" <br/><br/> I also enjoy creating romhacks/modded content, expect more of that soon.</p>
       </main>
     </div>
   );
