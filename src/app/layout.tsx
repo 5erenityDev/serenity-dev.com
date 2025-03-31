@@ -25,8 +25,8 @@ export default function RootLayout({
       <body
         className={`antialiased text-1xl font-helvetica`}
       >
-        <div className = "min-h-screen bg-[url(/images/site/background.png)] bg-[auto_32px]">
-          <div className = "flex-grow bg-night-2 mx-20">
+        <div className = "min-h-screen bg-[url(/images/site/background.png)] bg-[auto_2vw]">
+          <div className = "flex-grow bg-night-2 mx-[3vw]">
             <header className = "bg-night-1">
               <Image
               src="/images/site/SerenityDev.png"
