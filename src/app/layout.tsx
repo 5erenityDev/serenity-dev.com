@@ -6,6 +6,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "SerenityDev",
   description: "Indie Game Developer creating \"Wretched Rose\" and \"Up to Bat\"",
+  keywords: ['indie games', 'game development', 'wretched rose', 'up to bat', 'serenitydev', "serenity dev", "serenity_dev"],
+  themeColor: '#04010A',
   icons: {
     icon:'/favicon.ico',
   },
@@ -30,7 +32,7 @@ export const metadata: Metadata = {
     
   },
   twitter: {
-    card: 'summary_large_image', // Or 'summary', 'app', 'player'
+    card: 'summary', // Or 'summary', 'app', 'player'
     title: 'SerenityDev',
     description: 'Indie Game Developer creating "Wretched Rose" and "Up to Bat!"',
     site: '@Serenity_Dev', // Optional: Your website's Twitter handle
