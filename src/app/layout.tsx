@@ -13,6 +13,20 @@ export const metadata: Metadata = {
     width: 'device-width',
     initialScale: 1.0,
   },
+  openGraph: {
+    type: 'website',
+    title: 'SerenityDev',
+    description: 'Indie Game Developer creating "Wretched Rose" and "Up to Bat!"',
+    url: 'https://www.serenity-dev.com/',
+    images: [
+      {
+        url: '/images/site/banner.png',
+        width: 2000, // Optional: Specify width
+        height: 500, // Optional: Specify height
+        alt: 'SerenityDev Site Banner', // Optional: Specify alt text
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
