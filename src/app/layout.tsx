@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     creator: '@Serenity_Dev', // Optional: The creator's Twitter handle
     images: [
       {
-        url: '/images/site/banne.png', // Specific image for Twitter
+        url: '/images/site/banner.png', // Specific image for Twitter
         width: 2000, // Optional
         height: 500, // Optional: Twitter often prefers a 16:9 aspect ratio
         alt: 'SerenityDev Site Banner', // Optional
