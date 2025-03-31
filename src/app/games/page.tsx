@@ -1,7 +1,7 @@
 const GamesPage = () => {
   return (
     <div className="">
-        <main className="text-5xl">
+        <main className="text-[500%]">
           <ul>
               <a href="/games/wretched-rose">
                 <li className="h-150 bg-emerald-950">

@@ -54,7 +54,7 @@ export default function RootLayout({
             <br/>
             <br/>
             <footer className="bg-night-1 h-40">
-              <h1 className ="text-[0.7vw] text-center pt-4 mb-1">Follow me on social media</h1>
+              <h1 className ="text-[100%] text-center pt-4 mb-1">Follow me on social media</h1>
               <br/>
               <div className="row-start-3 flex gap-[3vw] flex-wrap items-center justify-center">
                 <a

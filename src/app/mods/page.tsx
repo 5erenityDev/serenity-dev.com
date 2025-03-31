@@ -2,7 +2,7 @@
 const GamesPage = () => {
   return (
     <div className="">
-        <main className="text-5xl">
+        <main className="text-[500%]">
           <ul>
               <a href="/mods/sm64">
                 <li className="h-150 bg-sky-950">

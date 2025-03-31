@@ -3,7 +3,7 @@ import Image from "next/image";
 const GamesPage = () => {
   return (
     <div className="sm:p-20">
-        <main className="flex flex-col gap-[50px] items-center text-lg/10">
+        <main className="flex flex-col gap-[50px] items-center text-[300%]">
         <h1>3D Renders:</h1>
         <ul className="row-start-3 flex gap-[0px] flex-wrap items-center justify-center">
             <li><Image src="/images/art/toymaker.png" alt="Toymaker from Wretched Rose" style={{ width: 'auto', height: 400}} width={2086} height={2086} priority/></li>
