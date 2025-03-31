@@ -37,7 +37,7 @@ export default function RootLayout({
               
               priority
               />
-              <div className="row-start-3 flex gap-[150px] flex-wrap items-center justify-center bg-night-1 h-20 text-5xl">
+              <div className="row-start-3 flex gap-x-[10vw] flex-wrap items-center justify-center bg-night-1 h-30 text-[2vw]">
                 <a href="/">Home</a>
                 <a href="/games">Games</a>
                 <a href="/mods">Mods/Romhacks/Shaders</a>
@@ -54,11 +54,11 @@ export default function RootLayout({
             <br/>
             <br/>
             <footer className="bg-night-1 h-40">
-              <h1 className ="text-1xl text-center pt-4 mb-1">Follow me on social media</h1>
+              <h1 className ="text-[0.7vw] text-center pt-4 mb-1">Follow me on social media</h1>
               <br/>
-              <div className="row-start-3 flex gap-[70px] flex-wrap items-center justify-center">
+              <div className="row-start-3 flex gap-[3vw] flex-wrap items-center justify-center">
                 <a
-                  className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  className="flex items-center gap-2 hover:underline hover:underline-offset-4 size-[3vw]"
                   href="https://bsky.app/profile/serenity-dev.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -72,7 +72,7 @@ export default function RootLayout({
                   />
                 </a>
                 <a
-                  className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  className="flex items-center gap-2 hover:underline hover:underline-offset-4 size-[3vw]"
                   href="https://twitter.com/Serenity_Dev"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -86,7 +86,7 @@ export default function RootLayout({
                   />
                 </a>
                 <a
-                  className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  className="flex items-center gap-2 hover:underline hover:underline-offset-4 size-[3vw]"
                   href="https://www.youtube.com/@Serenity_Dev"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -100,7 +100,7 @@ export default function RootLayout({
                   />
                 </a>
                 <a
-                  className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  className="flex items-center gap-2 hover:underline hover:underline-offset-4 size-[3vw]"
                   href="https://serenitydev.itch.io/"
                   target="_blank"
                   rel="noopener noreferrer"
