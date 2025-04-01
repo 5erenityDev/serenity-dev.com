@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react"
 
 import "./globals.css";
 
